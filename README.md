@@ -9,4 +9,5 @@ The Stocks have a quantity and a StockType. The StockType can be for example pet
 To value the portfolio in a Currency you can use external api to provide rate exchanges
 
 * Api : 	https://api.exchangeratesapi.io
-* Sample :	https://gitlab.com/YDanot/finance_api_sample/
+
+An interface can be used to abtract the call to the API: [FinanceApi.ts](src/finance-api.ts)
